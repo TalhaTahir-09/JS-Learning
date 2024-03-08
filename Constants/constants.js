@@ -18,6 +18,6 @@
 // admin = name;
 // alert(admin);
 
-const ourPlanetName= 'Earth';
-let currentUserName= 'Talha';
-alert(currentUserName);
+// const ourPlanetName= 'Earth';
+// let currentUserName= 'Talha';
+// alert(currentUserName);      
