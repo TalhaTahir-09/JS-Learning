@@ -1,6 +1,7 @@
-// let user = 'Hello World';
+const user = 'Hello World';
 // user = 'Jhon';
 // alert(user);
+console.log(user);
 
 // let user= 'Jhon';
 // let age;
@@ -39,3 +40,12 @@
 // num = 5;
 // alert(num);
 
+// let a = 54;
+// {
+// let a= 23;
+// console.log(a);
+// }
+// console.log(a);
+function sum(x, y){
+   console.log(x + y); 
+}

@@ -44,6 +44,7 @@
 // Revision
 
 // Global Scope
+/*
 let x = 5;
 var y = 10;
 const z= 22;
@@ -73,3 +74,23 @@ function myFunc() {
     console.log(`function-z: ${z}`)
 }
 myFunc()
+
+*/
+function avgSumPlus(x, y){
+    return  1+(x+y)/2;
+}
+const sum= (p,q) =>{
+    return p +q;
+};
+const hello=() => {
+    console.log("Hello how are you? I am fine!")
+}
+let a =5;
+let b= 7;
+let c= 44;
+let d= 32;
+// console.log("Average sum of a and b = " + avgSumPlus(a,b));
+// console.log("Average sum of c and b = " + avgSumPlus(c,b));
+// console.log("Average sum of c and d = " + avgSumPlus(c,d));
+console.log("Sum of 8 and 10 = " + sum(8,10))
+hello();
