@@ -17,3 +17,20 @@ console.log(extract.slice(18))
 
 let change= "The 4th value"
 console.log(change.replace("4th", "5th"));
+
+let count= 24;
+let a = 15;
+for(let i = 0; i<16; i++){
+    if(a<count){
+        a++
+    }
+    else{
+        a = a;
+    }
+}
+console.log(a)
+let marks = [55, 66, 88, 98, 55, 78];
+let i;
+for (i = 0; i < marks.length; i++) {
+  console.log(i);
+}
