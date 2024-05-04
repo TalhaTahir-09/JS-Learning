@@ -5,7 +5,7 @@ let arr = [1, 4, 67];
 let a = arr.map((element, index, array) => {
   // console.log(++element, index, array);
 });
-// console.log(arr);
+// console.log(a);
 
 // Array filter Method
 
@@ -14,9 +14,9 @@ let x = arr2.filter((value) => {
   return value < 10;
 });
 let newArray = x.map((element) => {
-  // console.log(element)
+  console.log(element)
 });
-// console.log(x);
+console.log(x);
 
 // Array Reduce Method
 
@@ -24,4 +24,5 @@ let arr3 = [1, 5, 8, 1, 2, 5];
 let newArr3= arr3.reduce((value, value_2) =>{
     return value + value_2;
 })
+
 console.log(newArr3);

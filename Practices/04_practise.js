@@ -29,8 +29,3 @@ for(let i = 0; i<16; i++){
     }
 }
 console.log(a)
-let marks = [55, 66, 88, 98, 55, 78];
-let i;
-for (i = 0; i < marks.length; i++) {
-  console.log(i);
-}
